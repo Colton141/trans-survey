@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Transportation Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="survey">
+        <div class="form-group">
+        <p>In the last year how have you gotten to work or school?</p>
+        <input type="checkbox" name="work-trans" value="car">Car<br>
+        <input type="checkbox" name="work-trans" value="bike">Bicycle<br>
+        <input type="checkbox" name="work-trans" value="bus">Bus<br>
+        <input type="checkbox" name="work-trans" value="train">Train<br>
+        <input type="checkbox" name="work-trans" value="rideshare">Uber/Lyft/rideshare<br>
+        </div>
+        <div class="form-group">
+        <p>In the last year how have you gotten to FUN?</p>
+        <input type="checkbox" name="fun-trans" value="car">Car<br>
+        <input type="checkbox" name="fun-trans" value="bike">Bicycle<br>
+        <input type="checkbox" name="fun-trans" value="the magic bus">The Magic School Bus<br>
+        <input type="checkbox" name="fun-trans" value="train">Train<br>
+        <input type="checkbox" name="fun-trans" value="bong">Bong<br>
+        </div>
+
+        <button type="submit" name="btn-success">Submit</button>
+      </form>
+      <span id="work-responses">
+        <p>You get to work using these:</p><br>
+      </span>
+      <br>
+      <span id="fun-responses">
+        <p>You get to fun shit using these:</p><br>
+      </span>
+    </div>
+  </body>
+</html>
